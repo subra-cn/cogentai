@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" fill="none">
+  <defs>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#06B6D4" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="blur1" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="20"/>
+    </filter>
+  </defs>
+
+  <!-- Background glows -->
+  <circle cx="300" cy="200" r="180" fill="url(#glow1)" filter="url(#blur1)"/>
+  <circle cx="180" cy="320" r="120" fill="url(#glow2)" filter="url(#blur1)"/>
+  <circle cx="440" cy="340" r="100" fill="url(#glow3)" filter="url(#blur1)"/>
+
+  <!-- Connection lines -->
+  <line x1="300" y1="160" x2="180" y2="260" stroke="url(#line-grad)" stroke-width="1.5" opacity="0.5"/>
+  <line x1="300" y1="160" x2="420" y2="240" stroke="url(#line-grad)" stroke-width="1.5" opacity="0.5"/>
+  <line x1="300" y1="160" x2="300" y2="300" stroke="url(#line-grad)" stroke-width="1.5" opacity="0.4"/>
+  <line x1="180" y1="260" x2="300" y2="300" stroke="url(#line-grad)" stroke-width="1" opacity="0.3"/>
+  <line x1="420" y1="240" x2="300" y2="300" stroke="url(#line-grad)" stroke-width="1" opacity="0.3"/>
+  <line x1="180" y1="260" x2="120" y2="360" stroke="url(#line-grad)" stroke-width="1" opacity="0.3"/>
+  <line x1="420" y1="240" x2="480" y2="340" stroke="url(#line-grad)" stroke-width="1" opacity="0.3"/>
+  <line x1="300" y1="300" x2="220" y2="400" stroke="url(#line-grad)" stroke-width="1" opacity="0.25"/>
+  <line x1="300" y1="300" x2="380" y2="400" stroke="url(#line-grad)" stroke-width="1" opacity="0.25"/>
+  <line x1="120" y1="360" x2="220" y2="400" stroke="url(#line-grad)" stroke-width="1" opacity="0.2"/>
+  <line x1="480" y1="340" x2="380" y2="400" stroke="url(#line-grad)" stroke-width="1" opacity="0.2"/>
+
+  <!-- Central Agent Hub -->
+  <circle cx="300" cy="160" r="36" fill="#0B1221" stroke="#3B82F6" stroke-width="2"/>
+  <circle cx="300" cy="160" r="28" fill="#151D2E" stroke="#3B82F6" stroke-width="1" opacity="0.5"/>
+  <text x="300" y="154" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#60A5FA" letter-spacing="0.5">AGENT</text>
+  <text x="300" y="168" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="#94A3B8">HUB</text>
+
+  <!-- Governance Node -->
+  <circle cx="180" cy="260" r="28" fill="#0B1221" stroke="#3B82F6" stroke-width="1.5"/>
+  <text x="180" y="255" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#3B82F6">&#x1F6E1;</text>
+  <text x="180" y="272" text-anchor="middle" font-family="Inter, sans-serif" font-size="7" fill="#94A3B8">GOVERN</text>
+
+  <!-- Orchestration Node -->
+  <circle cx="420" cy="240" r="28" fill="#0B1221" stroke="#06B6D4" stroke-width="1.5"/>
+  <text x="420" y="235" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#06B6D4">&#x2699;</text>
+  <text x="420" y="252" text-anchor="middle" font-family="Inter, sans-serif" font-size="7" fill="#94A3B8">ORCHESTRATE</text>
+
+  <!-- Data Node -->
+  <circle cx="300" cy="300" r="28" fill="#0B1221" stroke="#8B5CF6" stroke-width="1.5"/>
+  <text x="300" y="295" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#8B5CF6">&#x1F512;</text>
+  <text x="300" y="312" text-anchor="middle" font-family="Inter, sans-serif" font-size="7" fill="#94A3B8">DATA</text>
+
+  <!-- Enterprise System Nodes -->
+  <circle cx="120" cy="360" r="22" fill="#0B1221" stroke="#334155" stroke-width="1"/>
+  <text x="120" y="356" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="#64748B">ERP</text>
+  <text x="120" y="368" text-anchor="middle" font-family="Inter, sans-serif" font-size="6" fill="#475569">SAP</text>
+
+  <circle cx="220" cy="400" r="22" fill="#0B1221" stroke="#334155" stroke-width="1"/>
+  <text x="220" y="396" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="#64748B">CRM</text>
+  <text x="220" y="408" text-anchor="middle" font-family="Inter, sans-serif" font-size="6" fill="#475569">Salesforce</text>
+
+  <circle cx="380" cy="400" r="22" fill="#0B1221" stroke="#334155" stroke-width="1"/>
+  <text x="380" y="396" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="#64748B">M365</text>
+  <text x="380" y="408" text-anchor="middle" font-family="Inter, sans-serif" font-size="6" fill="#475569">Microsoft</text>
+
+  <circle cx="480" cy="340" r="22" fill="#0B1221" stroke="#334155" stroke-width="1"/>
+  <text x="480" y="336" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="#64748B">DB</text>
+  <text x="480" y="348" text-anchor="middle" font-family="Inter, sans-serif" font-size="6" fill="#475569">Oracle</text>
+
+  <!-- Animated pulse rings -->
+  <circle cx="300" cy="160" r="44" fill="none" stroke="#3B82F6" stroke-width="0.5" opacity="0.3">
+    <animate attributeName="r" values="40;60;40" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0;0.3" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="300" cy="160" r="52" fill="none" stroke="#3B82F6" stroke-width="0.5" opacity="0.15">
+    <animate attributeName="r" values="50;75;50" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.15;0;0.15" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Data flow particles -->
+  <circle r="2" fill="#3B82F6" opacity="0.8">
+    <animateMotion path="M300,160 L180,260" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2" fill="#06B6D4" opacity="0.8">
+    <animateMotion path="M300,160 L420,240" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="1.5" fill="#8B5CF6" opacity="0.7">
+    <animateMotion path="M300,160 L300,300" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="1.5" fill="#3B82F6" opacity="0.5">
+    <animateMotion path="M180,260 L120,360" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="1.5" fill="#06B6D4" opacity="0.5">
+    <animateMotion path="M420,240 L480,340" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+</svg>

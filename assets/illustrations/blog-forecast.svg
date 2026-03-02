@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" fill="none">
+  <rect width="400" height="200" fill="#0B1221"/>
+  <g transform="translate(40, 140)">
+    <line x1="0" y1="0" x2="320" y2="0" stroke="#1E293B" stroke-width="1"/>
+    <polyline points="0,-20 40,-30 80,-25 120,-45 160,-40 200,-65 240,-80 280,-100 320,-95" stroke="#06B6D4" stroke-width="2" fill="none" opacity="0.8"/>
+    <polyline points="0,-20 40,-30 80,-25 120,-45 160,-40 200,-65 240,-80 280,-100 320,-95" stroke="none" fill="url(#area-fill)"/>
+    <circle cx="280" cy="-100" r="4" fill="#06B6D4"/>
+    <circle cx="280" cy="-100" r="8" fill="#06B6D4" opacity="0.2">
+      <animate attributeName="r" values="6;12;6" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0;0.2" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <defs>
+    <linearGradient id="area-fill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <text x="330" y="50" font-family="Inter, sans-serif" font-size="24" font-weight="800" fill="#06B6D4" opacity="0.2">2026</text>
+</svg>

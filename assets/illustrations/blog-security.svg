@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" fill="none">
+  <rect width="400" height="200" fill="#0B1221"/>
+  <g transform="translate(120, 30)">
+    <!-- Shield / lock -->
+    <path d="M80 20 L80 5 C80 5, 80 0, 80 0 L80 0 C50 10, 50 10, 50 10 L50 10 C50 10, 50 10, 50 10 L50 10" fill="none"/>
+    <path d="M80 10 L140 30 L140 85 C140 110, 80 140, 80 140 C80 140, 20 110, 20 85 L20 30 Z" fill="#10B981" fill-opacity="0.06" stroke="#10B981" stroke-width="1" stroke-opacity="0.4"/>
+    <path d="M80 30 L120 44 L120 80 C120 98, 80 120, 80 120 C80 120, 40 98, 40 80 L40 44 Z" fill="#10B981" fill-opacity="0.04" stroke="#10B981" stroke-width="0.5" stroke-opacity="0.3"/>
+
+    <!-- Lock icon -->
+    <rect x="65" y="60" width="30" height="24" rx="4" fill="#10B981" fill-opacity="0.2" stroke="#10B981" stroke-width="1"/>
+    <path d="M72 60 L72 52 C72 44, 88 44, 88 52 L88 60" fill="none" stroke="#10B981" stroke-width="1.5"/>
+    <circle cx="80" cy="72" r="3" fill="#10B981"/>
+
+    <!-- Zero trust labels -->
+    <text x="80" y="108" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="#64748B">ZERO TRUST</text>
+  </g>
+  <g transform="translate(30, 120)">
+    <rect x="0" y="0" width="50" height="18" rx="3" fill="#10B981" fill-opacity="0.1" stroke="#10B981" stroke-width="0.5"/>
+    <text x="25" y="13" text-anchor="middle" font-family="Inter, sans-serif" font-size="7" fill="#10B981">IAM</text>
+  </g>
+  <g transform="translate(30, 145)">
+    <rect x="0" y="0" width="50" height="18" rx="3" fill="#10B981" fill-opacity="0.1" stroke="#10B981" stroke-width="0.5"/>
+    <text x="25" y="13" text-anchor="middle" font-family="Inter, sans-serif" font-size="7" fill="#10B981">RBAC</text>
+  </g>
+  <g transform="translate(320, 120)">
+    <rect x="0" y="0" width="50" height="18" rx="3" fill="#10B981" fill-opacity="0.1" stroke="#10B981" stroke-width="0.5"/>
+    <text x="25" y="13" text-anchor="middle" font-family="Inter, sans-serif" font-size="7" fill="#10B981">SSO</text>
+  </g>
+  <g transform="translate(320, 145)">
+    <rect x="0" y="0" width="50" height="18" rx="3" fill="#10B981" fill-opacity="0.1" stroke="#10B981" stroke-width="0.5"/>
+    <text x="25" y="13" text-anchor="middle" font-family="Inter, sans-serif" font-size="7" fill="#10B981">RLS</text>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" fill="none">
+  <rect width="400" height="200" fill="#0B1221"/>
+  <g transform="translate(80, 40)">
+    <rect x="0" y="0" width="240" height="35" rx="6" fill="#3B82F6" fill-opacity="0.1" stroke="#3B82F6" stroke-width="0.5"/>
+    <rect x="0" y="45" width="240" height="35" rx="6" fill="#06B6D4" fill-opacity="0.1" stroke="#06B6D4" stroke-width="0.5"/>
+    <rect x="0" y="90" width="240" height="35" rx="6" fill="#8B5CF6" fill-opacity="0.1" stroke="#8B5CF6" stroke-width="0.5"/>
+    <line x1="120" y1="35" x2="120" y2="45" stroke="#334155" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="120" y1="80" x2="120" y2="90" stroke="#334155" stroke-width="1" stroke-dasharray="3,3"/>
+    <circle cx="20" cy="17" r="8" fill="#3B82F6" fill-opacity="0.2"/>
+    <circle cx="20" cy="62" r="8" fill="#06B6D4" fill-opacity="0.2"/>
+    <circle cx="20" cy="107" r="8" fill="#8B5CF6" fill-opacity="0.2"/>
+    <text x="38" y="21" font-family="Inter, sans-serif" font-size="9" font-weight="600" fill="#60A5FA">Agents</text>
+    <text x="38" y="66" font-family="Inter, sans-serif" font-size="9" font-weight="600" fill="#22D3EE">Orchestration</text>
+    <text x="38" y="111" font-family="Inter, sans-serif" font-size="9" font-weight="600" fill="#A78BFA">Data Fabric</text>
+  </g>
+  <circle cx="50" cy="170" r="2" fill="#3B82F6" opacity="0.3"/>
+  <circle cx="360" cy="30" r="3" fill="#8B5CF6" opacity="0.3"/>
+</svg>

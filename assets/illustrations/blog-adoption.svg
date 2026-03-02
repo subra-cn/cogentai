@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" fill="none">
+  <rect width="400" height="200" fill="#0B1221"/>
+  <g transform="translate(40, 60)">
+    <!-- Progressive autonomy steps -->
+    <rect x="0" y="0" width="90" height="80" rx="8" fill="#3B82F6" fill-opacity="0.08" stroke="#3B82F6" stroke-width="0.5"/>
+    <circle cx="45" cy="28" r="12" fill="#3B82F6" fill-opacity="0.2"/>
+    <text x="45" y="32" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#3B82F6">1</text>
+    <text x="45" y="55" text-anchor="middle" font-family="Inter, sans-serif" font-size="7" font-weight="600" fill="#94A3B8">Converse</text>
+    <text x="45" y="66" text-anchor="middle" font-family="Inter, sans-serif" font-size="6" fill="#64748B">Ask &amp; Answer</text>
+
+    <line x1="95" y1="40" x2="115" y2="40" stroke="#334155" stroke-width="1"/>
+    <polygon points="113,37 119,40 113,43" fill="#334155"/>
+
+    <rect x="120" y="0" width="90" height="80" rx="8" fill="#06B6D4" fill-opacity="0.08" stroke="#06B6D4" stroke-width="0.5"/>
+    <circle cx="165" cy="28" r="12" fill="#06B6D4" fill-opacity="0.2"/>
+    <text x="165" y="32" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#06B6D4">2</text>
+    <text x="165" y="55" text-anchor="middle" font-family="Inter, sans-serif" font-size="7" font-weight="600" fill="#94A3B8">Assist</text>
+    <text x="165" y="66" text-anchor="middle" font-family="Inter, sans-serif" font-size="6" fill="#64748B">Draft &amp; Approve</text>
+
+    <line x1="215" y1="40" x2="235" y2="40" stroke="#334155" stroke-width="1"/>
+    <polygon points="233,37 239,40 233,43" fill="#334155"/>
+
+    <rect x="240" y="0" width="90" height="80" rx="8" fill="#8B5CF6" fill-opacity="0.08" stroke="#8B5CF6" stroke-width="0.5"/>
+    <circle cx="285" cy="28" r="12" fill="#8B5CF6" fill-opacity="0.2"/>
+    <text x="285" y="32" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#8B5CF6">3</text>
+    <text x="285" y="55" text-anchor="middle" font-family="Inter, sans-serif" font-size="7" font-weight="600" fill="#94A3B8">Automate</text>
+    <text x="285" y="66" text-anchor="middle" font-family="Inter, sans-serif" font-size="6" fill="#64748B">Act &amp; Audit</text>
+  </g>
+</svg>

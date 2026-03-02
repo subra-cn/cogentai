@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" fill="none">
+  <rect width="400" height="200" fill="#0B1221"/>
+  <g transform="translate(60, 30)">
+    <!-- Neural network / brain concept -->
+    <circle cx="140" cy="70" r="55" fill="#3B82F6" fill-opacity="0.04" stroke="#3B82F6" stroke-width="0.5" stroke-opacity="0.2"/>
+    <circle cx="140" cy="70" r="35" fill="#3B82F6" fill-opacity="0.06" stroke="#3B82F6" stroke-width="0.5" stroke-opacity="0.3"/>
+
+    <!-- Nodes -->
+    <circle cx="110" cy="45" r="5" fill="#3B82F6" opacity="0.6"/>
+    <circle cx="170" cy="50" r="4" fill="#06B6D4" opacity="0.6"/>
+    <circle cx="130" cy="80" r="5" fill="#8B5CF6" opacity="0.6"/>
+    <circle cx="160" cy="85" r="3.5" fill="#3B82F6" opacity="0.5"/>
+    <circle cx="140" cy="60" r="4" fill="#10B981" opacity="0.6"/>
+    <circle cx="120" cy="100" r="3" fill="#06B6D4" opacity="0.4"/>
+    <circle cx="165" cy="70" r="3.5" fill="#F59E0B" opacity="0.4"/>
+
+    <!-- Connections -->
+    <line x1="110" y1="45" x2="140" y2="60" stroke="#3B82F6" stroke-width="0.5" opacity="0.3"/>
+    <line x1="140" y1="60" x2="170" y2="50" stroke="#06B6D4" stroke-width="0.5" opacity="0.3"/>
+    <line x1="140" y1="60" x2="130" y2="80" stroke="#8B5CF6" stroke-width="0.5" opacity="0.3"/>
+    <line x1="130" y1="80" x2="160" y2="85" stroke="#3B82F6" stroke-width="0.5" opacity="0.2"/>
+    <line x1="165" y1="70" x2="170" y2="50" stroke="#06B6D4" stroke-width="0.5" opacity="0.2"/>
+    <line x1="130" y1="80" x2="120" y2="100" stroke="#8B5CF6" stroke-width="0.5" opacity="0.2"/>
+    <line x1="110" y1="45" x2="130" y2="80" stroke="#3B82F6" stroke-width="0.5" opacity="0.2"/>
+
+    <!-- Labels -->
+    <text x="20" y="50" font-family="Inter, sans-serif" font-size="7" fill="#64748B">MIT</text>
+    <text x="20" y="70" font-family="Inter, sans-serif" font-size="7" fill="#64748B">HBR</text>
+    <text x="20" y="90" font-family="Inter, sans-serif" font-size="7" fill="#64748B">McKinsey</text>
+    <line x1="55" y1="48" x2="105" y2="45" stroke="#334155" stroke-width="0.5" stroke-dasharray="2,2"/>
+    <line x1="42" y1="68" x2="126" y2="78" stroke="#334155" stroke-width="0.5" stroke-dasharray="2,2"/>
+    <line x1="62" y1="88" x2="117" y2="98" stroke="#334155" stroke-width="0.5" stroke-dasharray="2,2"/>
+  </g>
+</svg>
