@@ -259,31 +259,11 @@ section {
 .logo {
   display: flex;
   align-items: center;
-  gap: var(--space-sm);
-  font-size: 1.35rem;
-  font-weight: 800;
-  color: var(--color-text-primary);
-  letter-spacing: -0.03em;
 }
 
-.logo-icon {
-  width: 32px;
-  height: 32px;
-  background: linear-gradient(135deg, var(--color-accent), var(--color-accent-secondary));
-  border-radius: var(--radius-sm);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.logo-icon svg {
-  width: 18px;
-  height: 18px;
-  fill: white;
-}
-
-.logo span {
-  color: var(--color-accent);
+.logo-img {
+  height: 36px;
+  width: auto;
 }
 
 .nav-links {
