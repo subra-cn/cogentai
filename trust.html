@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trust Center — cogentAI</title>
+  <meta name="description" content="cogentAI Trust Center: security, compliance, data handling, responsible AI, and vulnerability disclosure.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%233B82F6'/><text x='16' y='22' text-anchor='middle' fill='white' font-size='18' font-weight='bold' font-family='sans-serif'>C</text></svg>">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo"><div class="logo-icon"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>cogent<span>AI</span></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a><a href="platform.html">Platform</a><a href="solutions.html">Solutions</a><a href="trust.html" class="active">Trust</a><a href="resources.html">Resources</a><a href="company.html">Company</a><a href="skills.html">Skills</a>
+      </nav>
+      <div class="flex gap-md items-center">
+        <a href="contact.html" class="btn btn-primary nav-cta desktop-only">Let's Talk</a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+  <nav class="mobile-nav" id="mobile-nav">
+    <a href="index.html">Home</a><a href="platform.html">Platform</a><a href="solutions.html">Solutions</a><a href="trust.html">Trust</a><a href="resources.html">Resources</a><a href="company.html">Company</a><a href="skills.html">Skills</a>
+    <a href="contact.html" class="btn btn-primary mt-lg">Let's Talk</a>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <div class="container">
+      <div class="section-label">Trust Center</div>
+      <h1>Enterprise trust. <span class="text-gradient">Verified, not claimed.</span></h1>
+      <p>Security, compliance, data handling, and responsible AI — documented transparently so your due diligence team has what it needs.</p>
+    </div>
+  </div>
+
+  <!-- SECURITY OVERVIEW -->
+  <section id="security">
+    <div class="container">
+      <div class="section-header animate-in">
+        <div class="section-label">Security</div>
+        <h2>Zero-trust architecture, <span class="text-gradient">by design</span></h2>
+        <p>Security is not a feature — it's the foundation. Every layer of cogentAI is built with zero-trust principles, defense-in-depth, and continuous verification.</p>
+      </div>
+
+      <div class="grid grid-3 stagger-children">
+        <div class="card animate-in">
+          <div class="card-icon card-icon--blue">&#x1F512;</div>
+          <h4>Identity &amp; Access</h4>
+          <p>Zero-trust identity management with IAM integration, role-based access control (RBAC), row-level security (RLS), and SSO support. Every agent action is identity-scoped.</p>
+        </div>
+        <div class="card animate-in">
+          <div class="card-icon card-icon--cyan">&#x1F6E1;</div>
+          <h4>Network &amp; Infrastructure</h4>
+          <p>Hardened deployment via Kubernetes, Terraform, and Helm. Network isolation, encrypted communication, and secure CI/CD pipelines. No shared tenancy.</p>
+        </div>
+        <div class="card animate-in">
+          <div class="card-icon card-icon--purple">&#x1F50D;</div>
+          <h4>Audit &amp; Monitoring</h4>
+          <p>Complete audit logging for every agent action, data access, and decision. Real-time monitoring, anomaly detection, and alerting for security events.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPLIANCE -->
+  <section id="compliance">
+    <div class="container">
+      <div class="section-header animate-in">
+        <div class="section-label">Compliance</div>
+        <h2>Frameworks we <span class="text-gradient">align to</span></h2>
+        <p>cogentAI is designed to support compliance with major regulatory and governance frameworks. Status is reported transparently.</p>
+      </div>
+
+      <div class="table-wrapper animate-in">
+        <table>
+          <thead>
+            <tr>
+              <th>Framework</th>
+              <th>Description</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>ISO/IEC 42001</strong></td>
+              <td>AI Management System — the first international standard for responsible AI governance</td>
+              <td><span class="status-badge status-badge--planned">Roadmap</span></td>
+            </tr>
+            <tr>
+              <td><strong>ISO 27001</strong></td>
+              <td>Information Security Management System</td>
+              <td><span class="status-badge status-badge--active">Supported</span></td>
+            </tr>
+            <tr>
+              <td><strong>HIPAA</strong></td>
+              <td>Health Insurance Portability and Accountability Act</td>
+              <td><span class="status-badge status-badge--active">Supported</span></td>
+            </tr>
+            <tr>
+              <td><strong>GDPR</strong></td>
+              <td>General Data Protection Regulation</td>
+              <td><span class="status-badge status-badge--active">Supported</span></td>
+            </tr>
+            <tr>
+              <td><strong>NIST CSF 2.0</strong></td>
+              <td>Cybersecurity Framework — with GOVERN as a core function</td>
+              <td><span class="status-badge status-badge--active">Aligned</span></td>
+            </tr>
+            <tr>
+              <td><strong>NIST AI RMF</strong></td>
+              <td>AI Risk Management Framework for trustworthy AI</td>
+              <td><span class="status-badge status-badge--active">Aligned</span></td>
+            </tr>
+            <tr>
+              <td><strong>OWASP Top 10 for LLMs</strong></td>
+              <td>Prompt injection, excessive agency, insecure plugin design, and more</td>
+              <td><span class="status-badge status-badge--active">Addressed</span></td>
+            </tr>
+            <tr>
+              <td><strong>SOC 2 Type II</strong></td>
+              <td>Service Organization Controls for security, availability, and confidentiality</td>
+              <td><span class="status-badge status-badge--planned">Roadmap</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p style="text-align: center; margin-top: var(--space-xl); font-size: 0.85rem; color: var(--color-text-muted);">
+        <strong>Supported</strong> = Platform features enable compliance. <strong>Aligned</strong> = Architecture follows framework principles. <strong>Roadmap</strong> = Certification in progress.
+      </p>
+    </div>
+  </section>
+
+  <!-- DATA HANDLING -->
+  <section id="data-handling">
+    <div class="container">
+      <div class="section-header animate-in">
+        <div class="section-label">Data Handling</div>
+        <h2>Your data stays <span class="text-gradient">in your perimeter</span></h2>
+        <p>Data sovereignty is not a feature toggle — it's the architecture.</p>
+      </div>
+
+      <div class="grid grid-2 stagger-children">
+        <div class="card animate-in">
+          <h4>&#x1F4CD; Where Data Lives</h4>
+          <p>cogentAI deploys in your environment. Data is accessed in place via MCP — never copied to external servers. On-prem, VPC, and air-gapped deployments keep data within your network boundary.</p>
+        </div>
+        <div class="card animate-in">
+          <h4>&#x1F504; Data Processing</h4>
+          <p>Agent queries are processed locally. LLM calls can be routed through your approved model endpoints. No training on your data. No data retention beyond your configured policies.</p>
+        </div>
+        <div class="card animate-in">
+          <h4>&#x1F4CA; Logging &amp; Retention</h4>
+          <p>All agent actions, data access, and decisions are logged. Retention policies are customer-configurable. Logs stay in your environment and can feed into your existing SIEM.</p>
+        </div>
+        <div class="card animate-in">
+          <h4>&#x1F465; Subprocessors</h4>
+          <p>cogentAI minimizes external dependencies. For on-prem and air-gapped deployments: zero subprocessors. For cloud deployments: a documented and regularly updated subprocessor list.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESPONSIBLE AI -->
+  <section id="responsible-ai">
+    <div class="container">
+      <div class="section-header animate-in">
+        <div class="section-label">Responsible AI</div>
+        <h2>Governed agency, <span class="text-gradient">not uncontrolled autonomy</span></h2>
+        <p>The real risk is uncontrolled agency. cogentAI provides the harness — boundaries, approvals, and evidence for every agent action.</p>
+      </div>
+
+      <div class="grid grid-3 stagger-children">
+        <div class="card animate-in">
+          <div class="card-icon card-icon--green">&#x2696;</div>
+          <h4>Bounded Autonomy</h4>
+          <p>Agents operate within explicitly defined boundaries. Actions requiring elevated privileges route through human approval gates.</p>
+        </div>
+        <div class="card animate-in">
+          <div class="card-icon card-icon--amber">&#x1F50E;</div>
+          <h4>Explainability</h4>
+          <p>Every agent decision includes reasoning traces. Stakeholders can inspect why an action was taken and what data informed it.</p>
+        </div>
+        <div class="card animate-in">
+          <div class="card-icon card-icon--blue">&#x1F3AF;</div>
+          <h4>Bias Awareness</h4>
+          <p>Model outputs are monitored for consistency and fairness. Enterprise context grounding reduces hallucination and drift risks.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRIVACY & TERMS ANCHORS -->
+  <section id="privacy">
+    <div class="container">
+      <div class="section-header animate-in">
+        <div class="section-label">Privacy &amp; Legal</div>
+        <h2>Privacy policy &amp; <span class="text-gradient">terms of service</span></h2>
+        <p>Full privacy policy and terms of service documentation — available upon request during enterprise evaluation. Contact us for the complete legal package.</p>
+      </div>
+      <div class="flex justify-center gap-md" id="terms">
+        <a href="contact.html" class="btn btn-secondary">Request Privacy Policy</a>
+        <a href="contact.html" class="btn btn-secondary">Request Terms of Service</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- VULNERABILITY DISCLOSURE -->
+  <section id="vulnerability">
+    <div class="container">
+      <div class="section-header animate-in">
+        <div class="section-label">Security Contact</div>
+        <h2>Vulnerability <span class="text-gradient">disclosure</span></h2>
+        <p>If you discover a security vulnerability, we want to hear from you. Responsible disclosure helps us protect all customers.</p>
+      </div>
+      <div class="card animate-in" style="max-width: 600px; margin: 0 auto; text-align: center;">
+        <h4>Report a Vulnerability</h4>
+        <p style="margin: var(--space-md) auto;">Contact our security team at <strong>security@co-gent.ai</strong>. We commit to acknowledging reports within 48 hours and providing updates throughout the resolution process.</p>
+        <a href="mailto:security@co-gent.ai" class="btn btn-primary mt-lg">security@co-gent.ai</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Ready for your <span class="text-gradient">due diligence?</span></h2>
+        <p>Request a security review package, architecture walkthrough, or compliance documentation for your evaluation process.</p>
+        <div class="cta-actions">
+          <a href="contact.html" class="btn btn-primary btn-lg">Request Security Package →</a>
+          <a href="contact.html" class="btn btn-secondary btn-lg">Schedule Architecture Review</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo"><div class="logo-icon"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>cogent<span>AI</span></a>
+          <p>Enterprise agents with governance, audit trails, and data sovereignty.</p>
+          <div class="footer-social"><a href="https://x.com/Co_gentAI">&#x1D54F;</a><a href="https://www.linkedin.com/company/co-gentai">in</a><a href="https://github.com/Co-gentAI">GH</a></div>
+        </div>
+        <div class="footer-column"><h5>Platform</h5><ul><li><a href="platform.html">Overview</a></li><li><a href="platform.html#architecture">Architecture</a></li><li><a href="platform.html#deployment">Deployment</a></li><li><a href="platform.html#integrations">Integrations</a></li></ul></div>
+        <div class="footer-column"><h5>Company</h5><ul><li><a href="company.html">About</a></li><li><a href="resources.html">Resources</a></li><li><a href="trust.html">Trust Center</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div class="footer-column"><h5>Legal</h5><ul><li><a href="trust.html#privacy">Privacy</a></li><li><a href="trust.html#terms">Terms</a></li><li><a href="trust.html#security">Security</a></li><li><a href="trust.html#responsible-ai">Responsible AI</a></li></ul></div>
+      </div>
+      <div class="footer-bottom"><span>&copy; 2026 cogentAI. All rights reserved.</span><span>10080 N Wolfe Road, Suite 200, Cupertino, CA 95014</span></div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

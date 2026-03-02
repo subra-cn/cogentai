@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Platform — cogentAI</title>
+  <meta name="description" content="The cogentAI platform: three-layer architecture, MCP-native integration, LLM-agnostic orchestration, and enterprise-grade deployment.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%233B82F6'/><text x='16' y='22' text-anchor='middle' fill='white' font-size='18' font-weight='bold' font-family='sans-serif'>C</text></svg>">
+</head>
+<body>
+
+  <!-- HEADER (same as index) -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+        cogent<span>AI</span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="platform.html" class="active">Platform</a>
+        <a href="solutions.html">Solutions</a>
+        <a href="trust.html">Trust</a>
+        <a href="resources.html">Resources</a>
+        <a href="company.html">Company</a>
+        <a href="skills.html">Skills</a>
+      </nav>
+      <div class="flex gap-md items-center">
+        <a href="contact.html" class="btn btn-primary nav-cta desktop-only">Let's Talk</a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+  <nav class="mobile-nav" id="mobile-nav">
+    <a href="index.html">Home</a><a href="platform.html">Platform</a><a href="solutions.html">Solutions</a><a href="trust.html">Trust</a><a href="resources.html">Resources</a><a href="company.html">Company</a><a href="skills.html">Skills</a>
+    <a href="contact.html" class="btn btn-primary mt-lg">Let's Talk</a>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <div class="container">
+      <div class="section-label">Platform</div>
+      <h1>Purpose-built for <span class="text-gradient">enterprise agency</span></h1>
+      <p>An intelligence platform with a built-in framework for your enterprise. Three layers. MCP-native. LLM-agnostic. Governed by design.</p>
+    </div>
+  </div>
+
+  <!-- ARCHITECTURE -->
+  <section id="architecture">
+    <div class="container">
+      <div class="section-header animate-in">
+        <div class="section-label">Architecture</div>
+        <h2>Three layers that <span class="text-gradient">adapt to you</span></h2>
+        <p>Each layer is independently configurable and auditable. Together they form a governed platform for enterprise agent deployment.</p>
+      </div>
+
+      <div class="grid grid-3 stagger-children">
+        <div class="card card--featured animate-in">
+          <div class="card-icon card-icon--blue">&#x1F916;</div>
+          <h3>Agent Layer</h3>
+          <p>Purpose-built agents for real enterprise work. They understand your KPIs, automate multi-step decisions, and streamline workflows from onboarding to compliance audits.</p>
+          <ul style="margin-top: var(--space-lg); display: flex; flex-direction: column; gap: var(--space-sm);">
+            <li style="font-size: 0.85rem; color: var(--color-text-muted);">&#x2192; Domain-specific agent templates</li>
+            <li style="font-size: 0.85rem; color: var(--color-text-muted);">&#x2192; KPI-driven action planning</li>
+            <li style="font-size: 0.85rem; color: var(--color-text-muted);">&#x2192; Multi-step workflow automation</li>
+            <li style="font-size: 0.85rem; color: var(--color-text-muted);">&#x2192; Human-in-the-loop approval gates</li>
+          </ul>
+        </div>
+
+        <div class="card card--featured animate-in">
+          <div class="card-icon card-icon--cyan">&#x2699;</div>
+          <h3>Optimization Layer</h3>
+          <p>LLM-agnostic orchestration transforms general models into fine-tuned, domain-specific agents using your enterprise knowledge, workflows, and organizational context.</p>
+          <ul style="margin-top: var(--space-lg); display: flex; flex-direction: column; gap: var(--space-sm);">
+            <li style="font-size: 0.85rem; color: var(--color-text-muted);">&#x2192; Model-agnostic orchestration</li>
+            <li style="font-size: 0.85rem; color: var(--color-text-muted);">&#x2192; Context injection (RAG, fine-tuning)</li>
+            <li style="font-size: 0.85rem; color: var(--color-text-muted);">&#x2192; Enterprise knowledge grounding</li>
+            <li style="font-size: 0.85rem; color: var(--color-text-muted);">&#x2192; Prompt governance and templating</li>
+          </ul>
+        </div>
+
+        <div class="card card--featured animate-in">
+          <div class="card-icon card-icon--purple">&#x1F5C4;</div>
+          <h3>Data Layer</h3>
+          <p>Sovereignty. No migration. Full control. Uses Model Context Protocol (MCP) for secure, standards-based access. Your data never leaves your perimeter.</p>
+          <ul style="margin-top: var(--space-lg); display: flex; flex-direction: column; gap: var(--space-sm);">
+            <li style="font-size: 0.85rem; color: var(--color-text-muted);">&#x2192; MCP-native data access</li>
+            <li style="font-size: 0.85rem; color: var(--color-text-muted);">&#x2192; Zero data migration</li>
+            <li style="font-size: 0.85rem; color: var(--color-text-muted);">&#x2192; Data lineage and provenance</li>
+            <li style="font-size: 0.85rem; color: var(--color-text-muted);">&#x2192; Dynamic masking and isolation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STANDARDS -->
+  <section id="standards">
+    <div class="container">
+      <div class="section-header animate-in">
+        <div class="section-label">Open Standards</div>
+        <h2>Built on <span class="text-gradient">open protocols</span>, not proprietary connectors</h2>
+        <p>cogentAI is MCP-native and API-first. We build on open standards so your enterprise isn't locked into any single vendor.</p>
+      </div>
+
+      <div class="grid grid-2 stagger-children">
+        <div class="card animate-in">
+          <div class="card-icon card-icon--cyan">&#x1F310;</div>
+          <h4>Model Context Protocol (MCP)</h4>
+          <p>MCP is an open protocol for connecting LLM applications to external data sources and tools. cogentAI uses MCP as the foundational integration layer — governed by the Linux Foundation's Agentic AI Foundation.</p>
+        </div>
+        <div class="card animate-in">
+          <div class="card-icon card-icon--blue">&#x1F4E1;</div>
+          <h4>API-First / OpenAPI</h4>
+          <p>Every tool and integration is exposed through well-defined API contracts using the OpenAPI standard. This ensures interoperability, documentation, and the enterprise discipline needed for auditable agent actions.</p>
+        </div>
+        <div class="card animate-in">
+          <div class="card-icon card-icon--purple">&#x1F3DB;</div>
+          <h4>LLM-Agnostic Orchestration</h4>
+          <p>No model lock-in. cogentAI orchestrates across models — swap providers, mix capabilities, optimize cost/performance. Models change monthly; architecture endures.</p>
+        </div>
+        <div class="card animate-in">
+          <div class="card-icon card-icon--green">&#x1F9E9;</div>
+          <h4>Agentic Fabric</h4>
+          <p>A composable integration layer that replaces brittle point-to-point connections with a governed mesh of agent capabilities, tool access, and enterprise data flows.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPLOYMENT -->
+  <section id="deployment">
+    <div class="container">
+      <div class="section-header animate-in">
+        <div class="section-label">Deployment</div>
+        <h2>Deploy <span class="text-gradient">anywhere</span> your data resides</h2>
+        <p>On-prem, VPC, private cloud, or air-gapped — cogentAI runs in your environment with enterprise-grade operational tooling.</p>
+      </div>
+
+      <div class="grid grid-3 stagger-children">
+        <div class="card animate-in">
+          <h4>&#x2601;&#xFE0F; Cloud / VPC</h4>
+          <p>Deploy in your Virtual Private Cloud with full network isolation. Managed updates and scaling with your cloud provider of choice.</p>
+        </div>
+        <div class="card animate-in">
+          <h4>&#x1F3E2; On-Premises</h4>
+          <p>Run entirely within your data center. No external calls, no cloud dependency. Complete data sovereignty.</p>
+        </div>
+        <div class="card animate-in">
+          <h4>&#x1F512; Air-Gapped</h4>
+          <p>For the most sensitive environments — defense, healthcare, regulated industries. Full functionality without internet connectivity.</p>
+        </div>
+      </div>
+
+      <div class="trust-badges animate-in">
+        <div class="trust-badge"><span class="badge-dot"></span> Kubernetes</div>
+        <div class="trust-badge"><span class="badge-dot"></span> Terraform</div>
+        <div class="trust-badge"><span class="badge-dot"></span> Helm</div>
+        <div class="trust-badge"><span class="badge-dot"></span> CI/CD</div>
+        <div class="trust-badge"><span class="badge-dot"></span> Docker</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTEGRATIONS -->
+  <section id="integrations">
+    <div class="container">
+      <div class="section-header animate-in">
+        <div class="section-label">Integrations</div>
+        <h2>Connects to your <span class="text-gradient">enterprise ecosystem</span></h2>
+        <p>Agents move through ERP, CRM, email, documents, and more — without disrupting your existing systems.</p>
+      </div>
+
+      <div class="table-wrapper animate-in">
+        <table>
+          <thead>
+            <tr>
+              <th>System</th>
+              <th>Category</th>
+              <th>Capabilities</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td><strong>SAP</strong></td><td>ERP</td><td>Read, Write, Approvals</td><td><span class="status-badge status-badge--active">Available</span></td></tr>
+            <tr><td><strong>Salesforce</strong></td><td>CRM</td><td>Read, Write, Approvals</td><td><span class="status-badge status-badge--active">Available</span></td></tr>
+            <tr><td><strong>Microsoft 365</strong></td><td>Productivity</td><td>Read, Write</td><td><span class="status-badge status-badge--active">Available</span></td></tr>
+            <tr><td><strong>Oracle</strong></td><td>ERP / Database</td><td>Read, Write</td><td><span class="status-badge status-badge--active">Available</span></td></tr>
+            <tr><td><strong>Infor</strong></td><td>ERP</td><td>Read, Write</td><td><span class="status-badge status-badge--active">Available</span></td></tr>
+            <tr><td><strong>Acumatica</strong></td><td>ERP</td><td>Read, Write</td><td><span class="status-badge status-badge--active">Available</span></td></tr>
+            <tr><td><strong>ServiceNow</strong></td><td>ITSM</td><td>Read, Write</td><td><span class="status-badge status-badge--planned">Planned</span></td></tr>
+            <tr><td><strong>Workday</strong></td><td>HCM</td><td>Read</td><td><span class="status-badge status-badge--planned">Planned</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- OBSERVABILITY -->
+  <section id="observability">
+    <div class="container">
+      <div class="section-header animate-in">
+        <div class="section-label">Observability &amp; Audit</div>
+        <h2>Every action. <span class="text-gradient">Every evidence.</span></h2>
+        <p>Every decision, every insight, every agent action — fully auditable. The evidence your compliance team needs, generated automatically.</p>
+      </div>
+
+      <div class="process-steps">
+        <div class="process-step animate-in">
+          <div class="process-step-dot" style="border-color: var(--color-accent); color: var(--color-accent);">1</div>
+          <div class="process-step-content">
+            <h4>Intent Captured</h4>
+            <p>Every agent action starts with a traceable intent — who requested it, what was asked, and the context that triggered it.</p>
+          </div>
+        </div>
+        <div class="process-step animate-in">
+          <div class="process-step-dot" style="border-color: var(--color-accent-secondary); color: var(--color-accent-secondary);">2</div>
+          <div class="process-step-content">
+            <h4>Plan Generated</h4>
+            <p>The agent generates an execution plan with tool calls, data access, and decision logic — all logged before execution.</p>
+          </div>
+        </div>
+        <div class="process-step animate-in">
+          <div class="process-step-dot" style="border-color: var(--color-accent-tertiary); color: var(--color-accent-tertiary);">3</div>
+          <div class="process-step-content">
+            <h4>Evidence Produced</h4>
+            <p>Every tool call produces evidence artifacts — data read, transformations applied, and outputs generated.</p>
+          </div>
+        </div>
+        <div class="process-step animate-in">
+          <div class="process-step-dot" style="border-color: var(--color-success); color: var(--color-success);">4</div>
+          <div class="process-step-content">
+            <h4>Approval &amp; Commit</h4>
+            <p>Actions requiring human approval route through defined gates. Final results are committed with complete audit trails.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2>See the platform <span class="text-gradient">in action</span></h2>
+        <p>Book a demo to see how cogentAI deploys purpose-built agents in your enterprise environment.</p>
+        <div class="cta-actions">
+          <a href="contact.html" class="btn btn-primary btn-lg">Book a Demo →</a>
+          <a href="contact.html" class="btn btn-secondary btn-lg">Request Architecture Audit</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo"><div class="logo-icon"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>cogent<span>AI</span></a>
+          <p>Enterprise agents with governance, audit trails, and data sovereignty.</p>
+          <div class="footer-social">
+            <a href="https://x.com/Co_gentAI">&#x1D54F;</a>
+            <a href="https://www.linkedin.com/company/co-gentai">in</a>
+            <a href="https://github.com/Co-gentAI">GH</a>
+          </div>
+        </div>
+        <div class="footer-column"><h5>Platform</h5><ul><li><a href="platform.html">Overview</a></li><li><a href="platform.html#architecture">Architecture</a></li><li><a href="platform.html#deployment">Deployment</a></li><li><a href="platform.html#integrations">Integrations</a></li></ul></div>
+        <div class="footer-column"><h5>Company</h5><ul><li><a href="company.html">About</a></li><li><a href="resources.html">Resources</a></li><li><a href="trust.html">Trust Center</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div class="footer-column"><h5>Legal</h5><ul><li><a href="trust.html#privacy">Privacy</a></li><li><a href="trust.html#terms">Terms</a></li><li><a href="trust.html#security">Security</a></li><li><a href="trust.html#responsible-ai">Responsible AI</a></li></ul></div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 cogentAI. All rights reserved.</span>
+        <span>10080 N Wolfe Road, Suite 200, Cupertino, CA 95014</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
